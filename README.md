@@ -66,11 +66,61 @@ Deliverable
 A description of all data sources used
 Source of data - Cylistic Bike Share company.
 
-# Process
-Cleaning and preparing data for analysis.
+    Load individual dataset
+
+
+#3. Process
+Data processing and Cleaning is done using R programming 
 
 . Created a column called "ride_length."
 . Created a column called "day_of_week."
 . Calculated the day of the week that each ride started using the "WEEKDAY" command (for example, =WEEKDAY(C2,1)) in each file. Format as General or as a number with no decimals, noting that 1 = Sunday and 7 = Saturday.
 
-Some of the collected data set were too large to process with excel so i used R programming language for further and easier processing of the data set.
+Some of the collected dataset were too large to process with excel so i imported the data into R programming language for further processing, data manipulation and analyzing of the data set. 
+
+. Removed rows with ride length that is <0. The data frame includes a few hundred entries when bikes where taken out of docks and checked for quality by Divvy where ride_length was negative or "zero". As identified in section 3.2 there were a few invalid data points with ride lengths less than 0. These data points should be deleted from the cleaned dataset. 
+. Remove incomplete and blank rows. 
+### 4.2 Remove incomplete and blank rows
+There were a few instances where there were no recorded station names. These incomplete rows of data should be removed.
+#I notice that the data frame contains rows with incomplete informations like started_at , ended_at , 
+#started_at_id and ended_at_id have incomplete rows that should be removed 
+### 4.4 Remove duplicates 
+The ride_id column is unique to each ride. This column is reviewed for any possible dublicate to be removed.
+### 4.5 check for and remove missing NA values.
+They where no missing NA values in the data set.
+
+#Analyze
+Data Aggregation is carried out within the R script and here are the following steps taken to achieve descriptive results.
+1. Perform descriptive analysis on riders ride lentgh covered
+2. Perform descriptive analysis on riders distance by knowing thier ride distance covered
+3. Converted the started_at and ended_at to date time object to get the ride_length in secs
+
+  ## Key Insights...
+. Member riders  use the bikes more often than casual riders based on the ride counts.
+
+   ![Rplot](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/6d09d77a-f165-4122-9c6a-6f0434e93e42)
+
+    
+   
+
+. From the visuals below you can see that casual riders spend more time on the bikes than member riders whom spend consistent time on weekdays but more on wknds. 
+
+   ![Rplot01](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/9d02cd72-f14c-45fd-8e17-76d7536c15dd)
+
+. Exported the cleaned data into a Tableau tool for visualisation for further analysis and insight 
+
+## Share
+. From the visuals below, you can see that member riders have more rides than casual riders.
+
+. Both member and casual riders started experiencing a significant increase in the usage of the rides from Feb - April 2023 
+![T](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/f89bdf8a-4b10-4765-aeda-65f09861d373)
+
+
+. Casual riders spend more time on the bikes on weekends compare to member riders.
+
+. Member riders spend more time on bikes on week days.
+
+![Captureee](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/ff9d8cf1-e5f9-4a26-a36e-db6fbb4bbdf4)
+
+
+
