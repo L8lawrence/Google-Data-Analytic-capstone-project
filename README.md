@@ -104,6 +104,7 @@ Data Aggregation is carried out within the R script and here are the following s
    
 
 . From the visuals below you can see that casual riders spend more time on the bikes than member riders whom spend consistent time on weekdays but more on wknds. 
+. Member riders use bikes more on thursday and fridays.
 
    ![Rplot01](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/9d02cd72-f14c-45fd-8e17-76d7536c15dd)
 
@@ -116,11 +117,17 @@ Data Aggregation is carried out within the R script and here are the following s
 ![T](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/f89bdf8a-4b10-4765-aeda-65f09861d373)
 
 
-. Casual riders spend more time on the bikes on weekends compare to member riders.
+. Casual riders spend more time on the bikes on weekends compare to member riders but spend lesser time riding during weekdays.
 
 . Member riders spend more time on bikes on week days.
 
+
 ![Captureee](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/ff9d8cf1-e5f9-4a26-a36e-db6fbb4bbdf4)
 
+#### Distance Traveleved by casual and member riders
+. From the visiallz below you can see that casual riders covered  a longer distance while riding compared to member riders that covered a shorter distance with a difference in few killometers. 
 
+![AV distance](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/30d07b8a-b78b-490b-a289-3637e546ab61)
 
+### Rideable bike type vs rider type comparison 
+. Both member and casual users use the classic bike more often .how ever only casual member use the ducked type .
