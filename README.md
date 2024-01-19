@@ -148,5 +148,12 @@ From the visuals below,
 In the couse of analysing the dataset for this case study, lots of interesting insight were discovered . Generally, Member and casual riders groups use the cyclistic bike service differently. Member riders use the bikes more often than casual users whom use it less often but ride it for a longer period and distance. 
 based on the analysis here are my recommendation ;
 
-1. 
+1. Marketing campaigns should be more targeted  on the casual riders who use the bike servces less often but more often on the wknds.
+2. Since casual riders start their rides most often from streeter Dr & Grand Ave station, more marketing campaign should be should be priotized at the station location.
+3. Encourage avenue for both member and casual riders to come together so as to promote conversion of casual riders.
+
+## Conclusion ..
+Being my first analytical project, this analysis and insight is open to criticism and improvement as i begin my journey in the data world.
+
+##Thank You....
 
