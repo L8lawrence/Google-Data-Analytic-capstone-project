@@ -89,7 +89,8 @@ The ride_id column is unique to each ride. This column is reviewed for any possi
 ### 4.5 check for and remove missing NA values.
 They where no missing NA values in the data set.
 
-#Analyze
+# Analyze...
+
 Data Aggregation is carried out within the R script and here are the following steps taken to achieve descriptive results.
 1. Perform descriptive analysis on riders ride lentgh covered
 2. Perform descriptive analysis on riders distance by knowing thier ride distance covered
@@ -110,7 +111,7 @@ Data Aggregation is carried out within the R script and here are the following s
 
 . Exported the cleaned data into a Tableau tool for visualisation for further analysis and insight 
 
-## Share
+# Share...
 . From the visuals below, you can see that member riders have more rides than casual riders.
 
 . Both member and casual riders started experiencing a significant increase in the usage of the rides from Feb - April 2023 
