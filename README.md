@@ -66,10 +66,10 @@ Deliverable
 A description of all data sources used
 Source of data - Cylistic Bike Share company.
 
-    Load individual dataset
 
 
 #3. Process
+
 Data processing and Cleaning is done using R programming 
 
 . Created a column called "ride_length."
