@@ -145,5 +145,8 @@ From the visuals below,
 
 
 # Act...
+In the couse of analysing the dataset for this case study, lots of interesting insight were discovered . Generally, Member and casual riders groups use the cyclistic bike service differently. Member riders use the bikes more often than casual users whom use it less often but ride it for a longer period and distance. 
+based on the analysis here are my recommendation ;
 
+1. 
 
