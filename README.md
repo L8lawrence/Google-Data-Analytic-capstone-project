@@ -55,7 +55,7 @@ The data is in CSV (comma-separated values) format, and there are a total of 13 
 
 3. Sort and filter the data.
  
- For this analysis, I used data for the last 10 months (Jan 2023 - Oct 2023) because it is more current from when i did my analysis.
+ For this analysis, I used data for the last 10 months (Jan 2023 - Oct 2023).
 
 4. Determine the credibility of the data.
 
@@ -63,14 +63,15 @@ For the purpose of this case study, the datasets are appropriate and will enable
 
 Deliverable
 
-A description of all data sources used
+A description of all data sources used.
+
 Source of data - Cylistic Bike Share company.
 
 
 
 #3. Process
 
-Data processing and Cleaning is done using R programming 
+Data processing and Cleaning is done using R programming script.
 
 . Created a column called "ride_length."
 . Created a column called "day_of_week."
