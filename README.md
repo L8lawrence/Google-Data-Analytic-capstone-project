@@ -131,3 +131,18 @@ Data Aggregation is carried out within the R script and here are the following s
 
 ### Rideable bike type vs rider type comparison 
 . Both member and casual users use the classic bike more often .how ever only casual member use the ducked type .
+
+![rideable t](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/0109df92-28df-42af-9432-955875f97472)
+
+### Start station Name/ Count of Ride Data
+
+To figure out the stations that had the most rides made by member_casual riders 
+From the visuals below,
+. Ellis Ave & 60th st station has the most ride count made by members riders while
+. Streeter Dr & Grand Ave has the least rides count made by casual riders. 
+![stat station](https://github.com/L8lawrence/Google-Data-Analytic-capstone-project/assets/149658921/8f38cd3a-1547-45e4-869e-8dd6aaead2bc)
+
+
+# Act...
+
+
